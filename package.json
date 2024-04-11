@@ -1,0 +1,22 @@
+{
+    "name": "backend-mysql",
+    "version": "1.0.0",
+    "description": "Creación de API REST con la base de datos MySQL",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app"
+    },
+    "author": "Cristian Nicolas Peña Coronado",
+    "license": "ISC",
+    "devDependencies": {
+        "express": "^4.19.2"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "mysql2": "^3.9.3",
+        "sequelize": "^6.37.2"
+    },
+    "packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa"
+}
